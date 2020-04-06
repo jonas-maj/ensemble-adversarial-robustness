@@ -91,7 +91,7 @@ def evaluate_ensemble(model_paths):
     header += ['model_' + str(i+1) + '_rob_certs' for i in range(len(models)-1)]
     print(','.join([col for col in header]))
 
-    for k in range(10, 21):
+    for k in range(1, 21):
         unanm = {'norm_errs': 0, 'norm_rejs': 0, 'rob_certs': 0}
         maj = {'norm_errs': 0, 'norm_rejs': 0, 'rob_certs': 0}
         avg_norm_errs = 0
