@@ -153,15 +153,15 @@ def evaluate_ensemble(model_paths):
                 
 ensemble_model_paths = {
                'mod2_seed': ['./models/even.pth', './models/odd.pth'],
-               # 'mod2_target': ['./models/even_target.pth', './models/odd_target.pth'],
-               # 'opt2_seed': ['./models/even_opt.pth', './models/odd_opt.pth'],
-               # 'opt2_target': ['./models/even_opt_target.pth', './models/odd_opt_target.pth'],
-               # 'mod5_seed': ['./models/mod5_0.pth', './models/mod5_1.pth', './models/mod5_2.pth', './models/mod5_3.pth', './models/mod5_4.pth'],
-               # 'mod5_target': ['./models/mod5target_0.pth', './models/mod5target_1.pth', './models/mod5target_2.pth', './models/mod5target_3.pth', './models/mod5target_4.pth'],
-               # 'opt5_seed': ['./models/opt5_0.pth', './models/opt5_1.pth', './models/opt5_2.pth', './models/opt5_3.pth', './models/opt5_4.pth'],
-               # 'opt5_target': ['./models/opt5target_0.pth', './models/opt5target_1.pth', './models/opt5target_2.pth', './models/opt5target_3.pth', './models/opt5target_4.pth'],
-               # 'mod10_seed': ['./models/mod10_0.pth', './models/mod10_1.pth', './models/mod10_2.pth', './models/mod10_3.pth', './models/mod10_4.pth', './models/mod10_5.pth', './models/mod10_6.pth', './models/mod10_7.pth', './models/mod10_8.pth', './models/mod10_9.pth'],
-               # 'mod10_target': ['./models/mod10target_0.pth', './models/mod10target_1.pth', './models/mod10target_2.pth', './models/mod10target_3.pth', './models/mod10target_4.pth', './models/mod10target_5.pth', './models/mod10target_6.pth', './models/mod10target_7.pth', './models/mod10target_8.pth', './models/mod10target_9.pth'],
+               'mod2_target': ['./models/even_target.pth', './models/odd_target.pth'],
+               'opt2_seed': ['./models/even_opt.pth', './models/odd_opt.pth'],
+               'opt2_target': ['./models/even_opt_target.pth', './models/odd_opt_target.pth'],
+               'mod5_seed': ['./models/mod5_0.pth', './models/mod5_1.pth', './models/mod5_2.pth', './models/mod5_3.pth', './models/mod5_4.pth'],
+               'mod5_target': ['./models/mod5_target_0.pth', './models/mod5_target_1.pth', './models/mod5_target_2.pth', './models/mod5_target_3.pth', './models/mod5_target_4.pth'],
+               'opt5_seed': ['./models/opt5_0.pth', './models/opt5_1.pth', './models/opt5_2.pth', './models/opt5_3.pth', './models/opt5_4.pth'],
+               'opt5_target': ['./models/opt5_target_0.pth', './models/opt5_target_1.pth', './models/opt5_target_2.pth', './models/opt5_target_3.pth', './models/opt5_target_4.pth'],
+               'mod10_seed': ['./models/mod10_0.pth', './models/mod10_1.pth', './models/mod10_2.pth', './models/mod10_3.pth', './models/mod10_4.pth', './models/mod10_5.pth', './models/mod10_6.pth', './models/mod10_7.pth', './models/mod10_8.pth', './models/mod10_9.pth'],
+               'mod10_target': ['./models/mod10_target_0.pth', './models/mod10_target_1.pth', './models/mod10_target_2.pth', './models/mod10_target_3.pth', './models/mod10_target_4.pth', './models/mod10_target_5.pth', './models/mod10_target_6.pth', './models/mod10_target_7.pth', './models/mod10_target_8.pth', './models/mod10_target_9.pth'],
               }
 
 def main():
