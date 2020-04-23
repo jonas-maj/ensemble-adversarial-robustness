@@ -1,5 +1,12 @@
-# Installation & Usage
-this codebase is built on top of the Cost-Sensitive robustness work by Xiao Zhang [found here](http://github.com/xiaozhanguva/Cost-Sensitive-Robustness).
+# Certifying Joint Adversarial Robustness for Model Ensembles
+
+This paper describes the work:
+
+> Mainuddin Ahmad Jonas and David Evans. [_Certifying Joint Adversarial Robustness for Model Ensembles_](https://arxiv.org/abs/2004.10250). 21 April 2020. [[arXiv](https://arxiv.org/abs/2004.10250)]
+
+This codebase is built on top of the Cost-Sensitive Robustness work by Xiao Zhang: [http://github.com/xiaozhanguva/Cost-Sensitive-Robustness](http://github.com/xiaozhanguva/Cost-Sensitive-Robustness).
+
+## Installation & Usage
 
 * Install Pytorch 0.4.1: 
 ```text
